@@ -1,6 +1,5 @@
 import { alpacaSettings } from "../alpaca-settings";
 import { Alpaca } from "../types";
-
 interface Props {
   alpaca: Alpaca;
 }
@@ -36,7 +35,7 @@ const AlpacaImage = ({ alpaca }: Props) => {
       {Object.keys(alpaca).map((key: string) => (
         <img
           key={key}
-          src={`src\\assets\\alpaca\\${key}\\${
+          src={`./src/assets/alpaca/${key}/${
             alpaca[key as keyof typeof alpacaSettings]
           }.png`}
           className={`w-[400px] h-[400px] object-cover absolute rounded-lg ${setZIndex(
