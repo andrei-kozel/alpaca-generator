@@ -5,7 +5,7 @@ Find the project requirements here: [Alpaca image generator website](https://www
 
 ## Tech/framework used
 
-Built with \_\_\_
+Built with react, typescript, tailwind and html2canvas
 
 ## Screenshots and demo
 
