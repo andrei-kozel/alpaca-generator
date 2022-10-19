@@ -9,12 +9,16 @@ Built with react, typescript, tailwind and html2canvas
 
 ## Screenshots and demo
 
-Screenshots of your app and/or a link to your live demo
+[Demo](https://alpace-generator.netlify.app/)
 
 ## Installation
+``
+npm install 
+``
 
-Instructions for other developers on how to install and run your code on their local environment.
-
+``
+npm run dev
+``
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
